@@ -1,0 +1,17 @@
+.carouselPoster {
+    margin-top: 6rem;
+    width: 100%;
+    padding: 0 1.2rem;
+}
+
+.carousel {
+    height: 30rem;
+}
+
+// responsive / media query
+// extra small devices down to 600px
+@media(200px <=width <=600px) {
+    .carousel {
+        height: fit-content;
+    }
+}

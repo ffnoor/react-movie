@@ -1,0 +1,72 @@
+.singleMovie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 2.5rem;
+
+    .poster {
+        width: 100%;
+        height: fit-content;
+        box-shadow: 0px 1px 2px 1px silver;
+        margin-bottom: 1rem;
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        img {
+            width: 100%;
+
+        }
+
+        .details {
+            padding: 1.5rem 1.5rem;
+            display: flex;
+
+            img {
+                width: 17rem;
+                height: 24.2rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .description {
+            padding: 1rem 30rem 0 2rem;
+
+            p {
+                padding: 1rem 0;
+                line-height: 2rem;
+            }
+
+            p:nth-child(1) {
+                color: #292929ed;
+            }
+
+            p:nth-child(3) {
+                display: inline-block;
+                font-weight: bold;
+            }
+
+            span {
+                color: #79c142;
+            }
+
+        }
+    }
+
+}
+
+// responsive
+@media(300px <=width <=800px) {
+
+    .details {
+        display: flex;
+        flex-direction: column;
+
+        .description {
+            padding: 0 .1rem 0 0 !important;
+        }
+    }
+}
