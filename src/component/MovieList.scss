@@ -1,3 +1,5 @@
+@use '../scss/variables' as *;
+
 // for styling 
 .flex {
     width: 100%;
@@ -27,6 +29,7 @@
         img {
             width: 11.3vw;
             height: fit-content;
+            background: $overlay;
         }
 
         p {
@@ -60,6 +63,7 @@
         img {
             width: 11.3vw;
             height: fit-content;
+            background: $overlay;
         }
 
         p {

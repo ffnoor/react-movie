@@ -1,7 +1,10 @@
+@use '../scss/variables' as *;
+
 .carouselPoster {
     margin-top: 6rem;
     width: 100%;
     padding: 0 1.2rem;
+    background: $overlay;
 }
 
 .carousel {
