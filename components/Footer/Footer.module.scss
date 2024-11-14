@@ -1,0 +1,12 @@
+.footer {
+    background: #131313;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+
+    // add margin top auto for fix in bottom 
+    // also check app div in globalstyle in style folder 
+    margin-top: auto;
+}
